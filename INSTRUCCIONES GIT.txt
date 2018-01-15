@@ -1,0 +1,40 @@
+ritgh cklick git bash here (con cursor en la carpeta)
+git init (inicia dentro de la carpeta los archivos de git)
+git remote add origin "https://github.com/jisrag/git-github.git" (agregas el espacio de trabajo de github)
+git pull origin master (jalas los archivos del github a gi)
+clear (limpia pantalla)
+git status (checas los cambios hechos)
+git add index.html (agrega un solo archivo)
+git commit -m "the comment is here" ( se agregan al almacen para comitearlos) ( se comitea al repo local)
+git add -A (agrega todos los archivos)
+git commit -m "Archivos agregados" (se comitea al repo local)
+git log (muestra los coomits)
+CREATING BRANCES
+git branch nameofthebranch (crear un  nuevo espacio de trabajo)
+git checkout nameofthebranch (se cmabia al  otro espacio de trabajo)
+(crear archivo txt)
+add archivo.txt
+commit -m "mensaje de archivo.txt"
+ls (muestra  los archivos dentro del branch)
+git checkout master (nos cambiamos al master)
+ls (mostramos los archivos dentro del master y vemos que no esta el del firstbranch)
+
+MERGING BRANCHES (hay que comitear los archivos)
+git  merge nameofbranch (estando en master)
+git commit -a -m "comentarios" (comitea los archivos ya agregados)
+cat  archivo.txt  (muestra los cambiuos directos en el archivo)
+
+REBASING BRANCHES (los archivos ya vienen comiteados)
+git rebase master (in first branch)
+git rebase nameofthe branch( in master branch)
+
+GIT FLOW
+ssh-keygen (generar SSH par asubir archivos)
+"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmL6kqdzIBj8ylXEg/eokzgWlkpFrEzJrNeTE37hZKbqMs9MNQx2jwyQWLvVtL1FP6qrnxZ9RKCzVAJCTrJpeObzcLy4ddlHbNHtVVcYLKgMWKbDlZgxjF4mlp5w73dW2g1ta7oD8TY80CLnXABd2qOC38/ehj5AGAWfcNfRbH9wsOee4rl+kF0i44dqqCJ/g6hYQITq76yyU5uXO0newXZkCHwRw0TRVrIiWSa/IfH1NKQTYvx1MHp/PX1koXzrN4Qhc+csPGriX/6DzOkw4uxHP77UtRwtoSvdx1/3X4eYXQ/C9QQPp+FwGB8goyeHTtk71eqYRnwB6MZPIB4YGh Jisrag@DESKTOP-A1VDDJ2"
+Registrarla en github / settinbgs / SSH/ Add key
+ssh -T git@github.com ( se termina el registro en guthub)
+(crear branch en github)
+git checkout firstbranch
+git push origin firstbranch 
+(Subir archivos al master)
+git push origin master
