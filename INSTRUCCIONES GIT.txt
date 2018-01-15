@@ -39,3 +39,6 @@ git checkout firstbranch
 git push origin firstbranch 
 (Subir archivos al master)
 git push origin master
+
+(para revertir cambios en un archivo especifico)
+git checkout 802d31b4 revert.txt
