@@ -1,3 +1,4 @@
+INSTRUCCIONES
 ritgh cklick git bash here (con cursor en la carpeta)
 git init (inicia dentro de la carpeta los archivos de git)
 git remote add origin "https://github.com/jisrag/git-github.git" (agregas el espacio de trabajo de github)
